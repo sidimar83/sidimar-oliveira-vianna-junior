@@ -1,0 +1,19 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Blog | Sidimar Oliveira Vianna Junior</title><style>*{box-sizing:border-box}body{margin:0;font-family:Verdana,Arial;color:#172033;background:#f6f7fb}header{padding:55px 7%;background:linear-gradient(135deg,#0878d1,#8ed8ff);color:white}nav{padding:20px 7%;background:white}nav a{margin-right:22px;color:#172033;text-decoration:none}.wrap{max-width:1100px;margin:auto;padding:35px 20px}.busca{width:100%;padding:15px;border:1px solid #ccd2df;border-radius:12px;margin-bottom:25px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:white;padding:20px;border-radius:16px;box-shadow:0 10px 30px #0001}article img{width:100%;height:190px;object-fit:cover;border-radius:11px}article a{color:#0878d1;font-weight:bold}small{color:#687086}.sf-texto{overflow-wrap:anywhere;white-space:normal;text-align:left;line-height:1.5}.sf-texto p,.sf-texto div,.sf-texto li{font-size:inherit;color:inherit;font-family:inherit;font-weight:inherit;line-height:inherit;text-align:inherit;white-space:normal}.sf-texto p{margin:0 0 .75em}.sf-texto ul,.sf-texto ol{padding-left:1.8em;margin:.6em 0}.sf-texto ul{list-style:disc}.sf-texto ol{list-style:decimal}.sf-texto h2,.sf-texto h3,.sf-texto h4{margin:.7em 0 .4em}.sf-texto blockquote{margin-left:24px}</style><style>
+/* Feedback de acionamento sem alterar o transform usado no posicionamento. */
+:where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]) {
+  transition: scale 120ms ease, translate 120ms ease, box-shadow 120ms ease;
+}
+:where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]):active:not(:disabled):not([aria-disabled="true"]) {
+  scale: .96;
+  translate: 0 2px;
+  box-shadow: inset 0 0 0 2px currentColor !important;
+}
+:where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  :where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]) { transition: none; }
+  :where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]):active { scale: none; translate: none; }
+}
+</style></head><body><nav><a href="/">Início</a><a href="/blog.html">Blog</a></nav><header><h1>Blog Sidimar Oliveira Vianna Junior</h1><p>Notícias, novidades e conteúdos.</p></header><main class="wrap"><input class="busca" id="busca" placeholder="Pesquisar publicações..."><div class="grid" id="posts"><p>Nenhuma publicação disponível.</p></div></main><script>busca.oninput=()=>{const q=busca.value.toLowerCase();document.querySelectorAll('[data-busca]').forEach(x=>x.style.display=x.dataset.busca.includes(q)?'block':'none')}</script></body></html>
